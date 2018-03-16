@@ -1,0 +1,513 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<60_Hz_Hum_remove.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <60_Hz_Hum_remove.ttl> .
+
+
+<Acoustic_Guitar_Picked.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Acoustic_Guitar_Picked.ttl> .
+
+
+<Add_Air_at_15kHz.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Add_Air_at_15kHz.ttl> .
+
+
+<Background_Strings.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Background_Strings.ttl> .
+
+
+<Backing_Vox_Female.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Backing_Vox_Female.ttl> .
+
+
+<Backing_Vox_Male.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Backing_Vox_Male.ttl> .
+
+
+<Basic_Bd.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Basic_Bd.ttl> .
+
+
+<Basic_Hihat.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Basic_Hihat.ttl> .
+
+
+<Basic_Organ.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Basic_Organ.ttl> .
+
+
+<Basic_Piano.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Basic_Piano.ttl> .
+
+
+<Basic_Sax.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Basic_Sax.ttl> .
+
+
+<Basic_Snare.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Basic_Snare.ttl> .
+
+
+<Bass_Boost.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Bass_Boost.ttl> .
+
+
+<Be_a_Bass.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Be_a_Bass.ttl> .
+
+
+<Bright_Hihat.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Bright_Hihat.ttl> .
+
+
+<Bright_Piano.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Bright_Piano.ttl> .
+
+
+<Clean_Funk_Guitar.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Clean_Funk_Guitar.ttl> .
+
+
+<Congas.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Congas.ttl> .
+
+
+<Dance_Bd.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Dance_Bd.ttl> .
+
+
+<Dance_Lead.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Dance_Lead.ttl> .
+
+
+<Dist_Rhythm_Guitar.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Dist_Rhythm_Guitar.ttl> .
+
+
+<Djembe.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Djembe.ttl> .
+
+
+<Drum_Percussion.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Drum_Percussion.ttl> .
+
+
+<E-Piano_in_the_Mix.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <E-Piano_in_the_Mix.ttl> .
+
+
+<Evil_Double_Bass.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Evil_Double_Bass.ttl> .
+
+
+<Evil_Hihat.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Evil_Hihat.ttl> .
+
+
+<Evil_Rock_Organ.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Evil_Rock_Organ.ttl> .
+
+
+<Floor_Tom.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Floor_Tom.ttl> .
+
+
+<Funky_Drum_Loops.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Funky_Drum_Loops.ttl> .
+
+
+<Guitar_Limiter.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Guitar_Limiter.ttl> .
+
+
+<Guitar_Limiter_2.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Guitar_Limiter_2.ttl> .
+
+
+<Hi_Tom.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Hi_Tom.ttl> .
+
+
+<HiCut@5Khz.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <HiCut@5Khz.ttl> .
+
+
+<HiCut@7Khz.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <HiCut@7Khz.ttl> .
+
+
+<HiCut@2Khz.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <HiCut@2Khz.ttl> .
+
+
+<Hip_Hop_Snare_1.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Hip_Hop_Snare_1.ttl> .
+
+
+<Hip_Hop_Snare_2.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Hip_Hop_Snare_2.ttl> .
+
+
+<Hip_Snare.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Hip_Snare.ttl> .
+
+
+<Hip_Hop_BD.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Hip_Hop_BD.ttl> .
+
+
+<House_Bass.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <House_Bass.ttl> .
+
+
+<House_Loop.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <House_Loop.ttl> .
+
+
+<HPF_2kHz_HI_Splitter.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <HPF_2kHz_HI_Splitter.ttl> .
+
+
+<HPF_1kHz_Looptopper.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <HPF_1kHz_Looptopper.ttl> .
+
+
+<Jazz_Guitar.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Jazz_Guitar.ttl> .
+
+
+<Lead_Vox_Female.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Lead_Vox_Female.ttl> .
+
+
+<Lead_Vox_Male.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Lead_Vox_Male.ttl> .
+
+
+<Lead_Vox_Male_2.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Lead_Vox_Male_2.ttl> .
+
+
+<Lo_Tom.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Lo_Tom.ttl> .
+
+
+<LoCut@120Hz.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <LoCut@120Hz.ttl> .
+
+
+<LoCut@80Hz.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <LoCut@80Hz.ttl> .
+
+
+<LoCut@60Hz.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <LoCut@60Hz.ttl> .
+
+
+<Loudness.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Loudness.ttl> .
+
+
+<Low_Cut.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Low_Cut.ttl> .
+
+
+<Male_Backing_Choir.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Male_Backing_Choir.ttl> .
+
+
+<Metal_Bass_Drum.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Metal_Bass_Drum.ttl> .
+
+
+<Mid_Worx.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Mid_Worx.ttl> .
+
+
+<Mixed_Choir.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Mixed_Choir.ttl> .
+
+
+<Old_School_Snare.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Old_School_Snare.ttl> .
+
+
+<Overheads.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Overheads.ttl> .
+
+
+<Phoneline.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Phoneline.ttl> .
+
+
+<Pico_Snare.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Pico_Snare.ttl> .
+
+
+<Pop_Bass.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Pop_Bass.ttl> .
+
+
+<Prec_Bass.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Prec_Bass.ttl> .
+
+
+<Presence.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Presence.ttl> .
+
+
+<Real_Strings.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Real_Strings.ttl> .
+
+
+<Reggae_Bass.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Reggae_Bass.ttl> .
+
+
+<Rock_Bass.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Rock_Bass.ttl> .
+
+
+<Rock_BD.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Rock_BD.ttl> .
+
+
+<Rock_Drums.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Rock_Drums.ttl> .
+
+
+<Rock_Guitar.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Rock_Guitar.ttl> .
+
+
+<Rock_Snare.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Rock_Snare.ttl> .
+
+
+<Saxophone.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Saxophone.ttl> .
+
+
+<Simple_Metal_Guitar.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Simple_Metal_Guitar.ttl> .
+
+
+<Soften.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Soften.ttl> .
+
+
+<Solo_Guitar.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Solo_Guitar.ttl> .
+
+
+<Solo_Piano.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Solo_Piano.ttl> .
+
+
+<Spanish_Guitar.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Spanish_Guitar.ttl> .
+
+
+<String_Pad.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <String_Pad.ttl> .
+
+
+<Strummed_Ac_Guitar.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Strummed_Ac_Guitar.ttl> .
+
+
+<Strummed_Ac_Guitar_2.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Strummed_Ac_Guitar_2.ttl> .
+
+
+<Sweet_Shaker.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Sweet_Shaker.ttl> .
+
+
+<Synth_Booster.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Synth_Booster.ttl> .
+
+
+<Synth_Pad.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <Synth_Pad.ttl> .
+
+
+<RESET.ttl>
+		lv2:appliesTo <http://calf.sourceforge.net/plugins/Equalizer8Band> ;
+		a pset:Preset ;
+		rdfs:seeAlso <RESET.ttl> .
+
+
